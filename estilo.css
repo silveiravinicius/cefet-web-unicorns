@@ -1,3 +1,11 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+audio {
+	padding-top: 10px;
+}
+
 h1 {
 	color: white;
 	font-size: 36px;
@@ -66,7 +74,7 @@ div#musica {
 	clear: left;
 }
 
-div#musica > p:nth-child(2n+1) {
+div#musica > p:nth-child(2n) {
 	margin-left: 34px;
 }
 
@@ -81,12 +89,4 @@ div.destacado {
 
 div#hoje h2:first-child {
 	margin-top: 0px;
-}
-
-body {
-	margin: 0px 0px 0px 0px;
-}
-
-audio {
-	padding-top: 10px;
 }
